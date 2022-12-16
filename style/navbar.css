@@ -49,3 +49,9 @@
     justify-content: right;
     padding-right: 165px;
 }
+
+.grp3Navbar button {
+    padding-left: 45px;
+    background: none;
+    border: none;
+}
