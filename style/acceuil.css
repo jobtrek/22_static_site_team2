@@ -1,0 +1,6 @@
+/* Article à la une */
+
+.article_une {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
