@@ -55,3 +55,7 @@
     background: none;
     border: none;
 }
+
+.grp3Navbar button:hover {
+    cursor: pointer;
+}
