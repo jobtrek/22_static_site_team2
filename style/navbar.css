@@ -4,9 +4,7 @@
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    justify-items: center;
 }
-
 
 .liststyle {
     list-style-type: none;
@@ -22,6 +20,7 @@
 .grp2Navbar ul {
     display: flex;
     gap: 45px;
+    justify-content: center;
 
 }
 
@@ -43,4 +42,10 @@
     background-image: url(/img/icon\ _search_.svg);
     background-position: right;
     background-repeat: no-repeat;
+}
+
+.grp3Navbar {
+    display: flex;
+    justify-content: right;
+    padding-right: 165px;
 }
