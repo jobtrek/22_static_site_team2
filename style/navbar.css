@@ -1,10 +1,10 @@
 .containerNavbar {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     text-align: center;
     align-items: center;
     justify-items: center;
-
 }
 
 
@@ -12,6 +12,11 @@
     list-style-type: none;
     float: left;
 
+}
+
+.grp1Navbar {
+    display: flex;
+    padding-left: 35px;
 }
 
 .grp2Navbar ul {
@@ -30,4 +35,12 @@
     color: blueviolet;
 }
 
-.grp3Navbar form {}
+.grp3Navbar input {
+    border-radius: 25px;
+    width: 140px;
+    height: 37px;
+    background-color: #F4F4F4;
+    background-image: url(/img/icon\ _search_.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
