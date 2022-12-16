@@ -1,11 +1,31 @@
-.Navbar {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.containerNavbar {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
     align-items: center;
     justify-items: center;
+
 }
 
 
 .liststyle {
     list-style-type: none;
+    float: left;
+
+}
+
+.grp2Navbar ul {
+    display: flex;
+    gap: 45px;
+
+}
+
+.grp2Navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.grp2Navbar a:hover {
+    transition: 1s;
+    color: blueviolet;
 }
