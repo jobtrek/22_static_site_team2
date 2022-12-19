@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
     .containerNavbar {
         display: grid;
-        grid-template-columns: repeat(3, 2fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .grp3Navbar {
@@ -20,6 +20,7 @@
         background-position: right;
         background-repeat: no-repeat;
     }
+
 
 }
 
