@@ -1,8 +1,29 @@
-@media screen and (max-width: 700px) {
-    .containerNavbar {}
+@media screen and (max-width: 600px) {
+    .containerNavbar {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+    .grp3Navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+    .grp3Navbar input {
+        border-radius: 25px;
+        width: 140px;
+        height: 37px;
+        background-color: #F4F4F4;
+        background-image: url(/img/icon\ _search_.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:600px) {
     .containerNavbar {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -11,11 +32,7 @@
         align-items: center;
     }
 
-    .liststyle {
-        list-style-type: none;
-        float: left;
 
-    }
 
     .grp1Navbar {
         display: flex;
@@ -66,4 +83,10 @@
 
 .grp3Navbar button:hover {
     cursor: pointer;
+}
+
+.liststyle {
+    list-style-type: none;
+    float: left;
+
 }
