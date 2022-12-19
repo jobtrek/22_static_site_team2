@@ -1,26 +1,50 @@
-.containerNavbar {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
+@media screen and (max-width: 700px) {
+    .containerNavbar {}
 }
 
-.liststyle {
-    list-style-type: none;
-    float: left;
+@media screen and (min-width:700px) {
+    .containerNavbar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
 
-}
+    .liststyle {
+        list-style-type: none;
+        float: left;
 
-.grp1Navbar {
-    display: flex;
-    padding-left: 35px;
-}
+    }
 
-.grp2Navbar ul {
-    display: flex;
-    gap: 45px;
-    justify-content: center;
+    .grp1Navbar {
+        display: flex;
+        padding-left: 35px;
+    }
+
+    .grp2Navbar ul {
+        display: flex;
+        gap: 45px;
+        justify-content: center;
+
+    }
+
+    .grp3Navbar input {
+        border-radius: 25px;
+        width: 140px;
+        height: 37px;
+        background-color: #F4F4F4;
+        background-image: url(/img/icon\ _search_.svg);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .grp3Navbar {
+        display: flex;
+        justify-content: right;
+        padding-right: 165px;
+    }
+
 
 }
 
@@ -32,22 +56,6 @@
 .grp2Navbar a:hover {
     transition: 1s;
     color: blueviolet;
-}
-
-.grp3Navbar input {
-    border-radius: 25px;
-    width: 140px;
-    height: 37px;
-    background-color: #F4F4F4;
-    background-image: url(/img/icon\ _search_.svg);
-    background-position: right;
-    background-repeat: no-repeat;
-}
-
-.grp3Navbar {
-    display: flex;
-    justify-content: right;
-    padding-right: 165px;
 }
 
 .grp3Navbar button {
