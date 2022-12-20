@@ -1,27 +1,5 @@
 @media screen and (max-width: 600px) {
-    .containerNavbar {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .grp3Navbar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 10px;
-    }
-
-    .grp3Navbar input {
-        border-radius: 25px;
-        width: 140px;
-        height: 37px;
-        background-color: #F4F4F4;
-        background-image: url(/img/icon\ _search_.svg);
-        background-position: right;
-        background-repeat: no-repeat;
-    }
-
-
+    .grp3Navbar button {}
 }
 
 @media screen and (min-width:600px) {
@@ -47,6 +25,12 @@
 
     }
 
+    .grp3Navbar {
+        display: flex;
+        justify-content: right;
+        padding-right: 165px;
+    }
+
     .grp3Navbar input {
         border-radius: 25px;
         width: 140px;
@@ -57,13 +41,16 @@
         background-repeat: no-repeat;
     }
 
-    .grp3Navbar {
-        display: flex;
-        justify-content: right;
-        padding-right: 165px;
-    }
 
+}
 
+.grp1Navbar button {
+    background: none;
+    border: none;
+}
+
+.grp1Navbar button:hover {
+    cursor: pointer;
 }
 
 .grp2Navbar a {
@@ -90,4 +77,12 @@
     list-style-type: none;
     float: left;
 
+}
+
+.grp3Navbar input {
+    border-radius: 25px;
+    background-image: url(/img/icon\ _search_.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 10px;
 }
