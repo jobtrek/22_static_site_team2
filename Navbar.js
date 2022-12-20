@@ -1,5 +1,8 @@
+let screensize = window.innerWidth;
+console.log(screensize)
 let pageButtons = document.getElementsByClassName('liststyle')
 let burgerButton = document.getElementById('burger')
+
 for (const pagebutton of pageButtons) {
     pagebutton.style.display = 'none';
     displaystyle = pagebutton.style.display;
@@ -10,13 +13,14 @@ burgerButton.addEventListener('click', function () {
         for (const pagebutton of pageButtons) {
             pagebutton.style.display = 'flex';
             displaystyle = pagebutton.style.display;
-            console.log(displaystyle);
         }
     } else {
         for (const pagebutton of pageButtons) {
             pagebutton.style.display = 'none';
             displaystyle = pagebutton.style.display;
-            console.log(displaystyle);
         }
     }
 });
+
+
+
