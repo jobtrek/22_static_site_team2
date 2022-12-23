@@ -1,6 +1,45 @@
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 800px) {
+    .containerNavbar {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
 
-@media screen and (min-width:600px) {
+    }
+
+    .grp2Navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grp3Navbar {
+        grid-row: 2;
+    }
+
+    .grp3Navbar input {
+        width: 75%;
+    }
+
+    .grp3Navbar button {
+        grid-row: 1;
+    }
+
+
+
+    .grp2Navbar ul {
+        display: grid;
+        grid-template-rows: repeat(3, 3fr);
+    }
+
+    .liststyle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+@media screen and (min-width:800px) {
     .containerNavbar {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -8,8 +47,6 @@
         text-align: center;
         align-items: center;
     }
-
-
 
     .grp1Navbar {
         display: flex;
@@ -30,7 +67,6 @@
     }
 
     .grp3Navbar input {
-        border-radius: 25px;
         width: 140px;
         height: 37px;
         background-color: #F4F4F4;
@@ -39,7 +75,25 @@
         background-repeat: no-repeat;
     }
 
+    .liststyle {
+        list-style-type: none;
+        float: left;
 
+    }
+
+    .grp3Navbar input {
+        border-radius: 25px;
+        background-image: url(/img/icon\ _search_.svg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 10px;
+    }
+
+
+}
+
+.liststyle {
+    list-style: none;
 }
 
 .grp1Navbar button {
@@ -71,11 +125,7 @@
     cursor: pointer;
 }
 
-.liststyle {
-    list-style-type: none;
-    float: left;
 
-}
 
 .grp3Navbar input {
     border-radius: 25px;
