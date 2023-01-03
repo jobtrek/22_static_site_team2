@@ -1,4 +1,23 @@
+@media screen and (min-width: 800px) {
+  .container_shoes {
+    display: grid;
+    grid-template-columns: 62% 38%;
+  }
+}
+/*
 .container_shoes {
   display: grid;
-  grid-template-columns: repeat(2, 3fr);
+  grid-template-columns: 62% 38%;
+}
+*/
+
+.grid_preview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid_preview > .image_preview {
+  width: 100%;
+  max-width: 350px;
 }
