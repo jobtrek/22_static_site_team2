@@ -74,6 +74,12 @@
   color: #ffffff;
 }
 
+.Button_view:hover {
+  transition: 0.8s;
+  color: blueviolet;
+  background-color: #ffffff;
+}
+
 @media screen and (min-width: 1000px) {
   .article_right > h2 {
     font-size: 48px;
