@@ -1,23 +1,77 @@
+/* grid global + grid image responsive*/
 @media screen and (min-width: 800px) {
   .container_shoes {
     display: grid;
     grid-template-columns: 62% 38%;
+    padding: 10%;
   }
 }
-/*
-.container_shoes {
-  display: grid;
-  grid-template-columns: 62% 38%;
-}
-*/
 
 .grid_preview {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  padding: 10%;
 }
 
 .grid_preview > .image_preview {
   width: 100%;
   max-width: 350px;
+}
+
+/* text à droite */
+
+.text_1 {
+  font-size: 16px;
+}
+
+.text_2 {
+  font-size: 7px;
+  color: #5b5b5b;
+}
+
+.text_3 {
+  font-size: 10px;
+}
+
+.text_4 {
+  font-size: 7px;
+  color: rgba(91, 91, 91, 0.91);
+}
+
+/* button à droite */
+
+.size_flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+#finde_your_size {
+  font-size: 10px;
+  font-variation-settings: "slnt" 0;
+  text-decoration: underline;
+}
+
+#size_guide {
+  text-decoration: underline;
+  font-size: 7px;
+}
+
+/* button slecteur de taille */
+
+.custom-select {
+  display: flex;
+  background: #ffffff;
+  border: 0.5px solid #000000;
+  border-radius: 7px;
+}
+
+select {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #ffffff;
+  flex-grow: 1;
+  padding: 1%;
 }
