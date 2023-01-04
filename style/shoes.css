@@ -99,9 +99,47 @@ select {
 /* Button add to bag et like */
 
 .button_bag_like {
-  display: flex;
+  display: grid;
+  grid-template-columns: 60% 40%;
 
   margin-top: 6%;
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.button_bag {
+  color: #ffffff;
+  background: #000000;
+  border-radius: 7px;
+  font-size: 10px;
+  padding: 3%;
+  border: 1px solid black;
+
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.button_bag:hover {
+  transition: 0.8s;
+  color: blueviolet;
+  background-color: #ffffff;
+}
+
+.class_like {
+  justify-self: end;
+
+  background: #ffffff;
+  border: 0.5px solid #000000;
+  border-radius: 7px;
+}
+
+.button_like {
+  justify-self: end;
+
+  background: #ffffff;
+  border: 0.5px solid #000000;
+  border-radius: 7px;
 }
 
 /* responsive pc */
@@ -196,5 +234,31 @@ select {
     font-family: "Inter";
     font-style: normal;
     color: #9b9797;
+  }
+
+  /* Button add to bag et like */
+
+  .button_bag_like {
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    margin-top: 6%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .button_bag {
+    color: #ffffff;
+    background: #000000;
+    border-radius: 7px;
+    font-size: 18px;
+  }
+
+  .button_like {
+    justify-self: end;
+
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 7px;
   }
 }
