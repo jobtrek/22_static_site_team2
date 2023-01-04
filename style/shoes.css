@@ -1,3 +1,8 @@
+.container_shoes {
+  font-family: "Inter";
+  font-style: normal;
+}
+
 /* responsive pc */
 @media screen and (min-width: 600px) {
   .container_shoes {
@@ -14,20 +19,28 @@
 
   .text_1 {
     font-size: 16px;
+    font-family: "Inter";
+    font-style: normal;
   }
 
   .text_2 {
     font-size: 7px;
     color: #5b5b5b;
+    font-family: "Inter";
+    font-style: normal;
   }
 
   .text_3 {
     font-size: 10px;
+    font-family: "Inter";
+    font-style: normal;
   }
 
   .text_4 {
     font-size: 7px;
     color: rgba(91, 91, 91, 0.91);
+    font-family: "Inter";
+    font-style: normal;
   }
 
   /* button à droite */
@@ -39,22 +52,26 @@
     padding-bottom: 5%;
   }
 
-  #finde_your_size {
+  #find_your_size {
     font-size: 10px;
     font-variation-settings: "slnt" 0;
     text-decoration: underline;
+    font-family: "Inter";
+    font-style: normal;
   }
 
   #size_guide {
     text-decoration: underline;
     font-size: 7px;
+    font-family: "Inter";
+    font-style: normal;
   }
 
   /* button slecteur de taille */
 
   .custom-select {
     display: flex;
-    background: #ffffff;
+
     border: 0.5px solid #000000;
     border-radius: 7px;
   }
@@ -64,7 +81,12 @@
     padding-right: 2%;
     background-color: #ffffff;
     flex-grow: 1;
+    border-radius: 7px;
     padding: 1%;
+
+    font-family: "Inter";
+    font-style: normal;
+    color: #9b9797;
   }
 }
 
