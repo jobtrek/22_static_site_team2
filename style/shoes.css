@@ -1,6 +1,99 @@
+/* grid global */
+.grid_preview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 10%;
+}
+
+.grid_preview > .image_preview {
+  width: 100%;
+  max-width: 350px;
+}
+
 .container_shoes {
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+/* texte à droite */
+
+.text_1 {
+  font-size: 16px;
   font-family: "Inter";
   font-style: normal;
+  color: #000000;
+}
+
+.text_2 {
+  font-size: 9px;
+  color: #5b5b5b;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 5%;
+}
+
+.text_3 {
+  font-size: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #000000;
+}
+
+.text_4 {
+  font-size: 9px;
+  color: rgba(91, 91, 91, 0.91);
+  font-family: "Inter";
+  font-style: normal;
+}
+
+/* button à droite */
+
+.size_flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+#find_your_size {
+  font-size: 10px;
+  font-variation-settings: "slnt" 0;
+  text-decoration: underline;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+#size_guide {
+  text-decoration: underline;
+  font-size: 7px;
+  font-family: "Inter";
+  font-style: italic;
+  font-variation-settings: "slnt" -5;
+}
+
+/* button slecteur de taille */
+
+.custom-select {
+  display: flex;
+
+  border: 0.5px solid #000000;
+  border-radius: 7px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+select {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #ffffff;
+  flex-grow: 1;
+  border-radius: 7px;
+  padding: 1%;
+
+  font-family: "Inter";
+  font-style: normal;
+  color: #9b9797;
 }
 
 /* responsive pc */
@@ -9,6 +102,9 @@
     display: grid;
     grid-template-columns: 62% 38%;
     padding: 10%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
   .shoes_left {
@@ -18,29 +114,32 @@
   /* texte à droite */
 
   .text_1 {
-    font-size: 16px;
+    font-size: 24px;
     font-family: "Inter";
     font-style: normal;
+    margin-bottom: 1%;
   }
 
   .text_2 {
-    font-size: 7px;
+    font-size: 15px;
     color: #5b5b5b;
     font-family: "Inter";
     font-style: normal;
+    margin-bottom: 10%;
   }
 
   .text_3 {
-    font-size: 10px;
+    font-size: 20px;
     font-family: "Inter";
     font-style: normal;
   }
 
   .text_4 {
-    font-size: 7px;
+    font-size: 14px;
     color: rgba(91, 91, 91, 0.91);
     font-family: "Inter";
     font-style: normal;
+    margin-bottom: 12%;
   }
 
   /* button à droite */
@@ -53,7 +152,7 @@
   }
 
   #find_your_size {
-    font-size: 10px;
+    font-size: 13px;
     font-variation-settings: "slnt" 0;
     text-decoration: underline;
     font-family: "Inter";
@@ -62,9 +161,9 @@
 
   #size_guide {
     text-decoration: underline;
-    font-size: 7px;
+    font-variation-settings: "slnt" 0;
+    font-size: 12px;
     font-family: "Inter";
-    font-style: normal;
   }
 
   /* button slecteur de taille */
@@ -74,6 +173,8 @@
 
     border: 0.5px solid #000000;
     border-radius: 7px;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
   select {
@@ -88,16 +189,4 @@
     font-style: normal;
     color: #9b9797;
   }
-}
-
-.grid_preview {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  padding: 10%;
-}
-
-.grid_preview > .image_preview {
-  width: 100%;
-  max-width: 350px;
 }
