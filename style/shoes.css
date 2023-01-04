@@ -96,6 +96,14 @@ select {
   color: #9b9797;
 }
 
+/* Button add to bag et like */
+
+.button_bag_like {
+  display: flex;
+
+  margin-top: 6%;
+}
+
 /* responsive pc */
 @media screen and (min-width: 600px) {
   .container_shoes {
