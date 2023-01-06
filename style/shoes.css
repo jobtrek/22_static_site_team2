@@ -100,7 +100,7 @@ select {
 
 .button_bag_like {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-rows: 40px 40px;
 
   margin-top: 6%;
   margin-top: 8%;
@@ -126,20 +126,26 @@ select {
   background-color: #ffffff;
 }
 
-.class_like {
+.button_like {
+  display: flex;
   justify-self: end;
+  margin-top: 3%;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.345em;
 
   background: #ffffff;
   border: 0.5px solid #000000;
   border-radius: 7px;
+  padding: 3%;
 }
 
-.button_like {
-  justify-self: end;
-
-  background: #ffffff;
-  border: 0.5px solid #000000;
-  border-radius: 7px;
+.button_like:hover {
+  transition: 0.8s;
+  color: blueviolet;
 }
 
 /* responsive pc */
@@ -241,6 +247,7 @@ select {
   .button_bag_like {
     display: grid;
     grid-template-columns: 60% 40%;
+    grid-template-rows: 0% 0%;
 
     margin-top: 6%;
     margin-left: 0%;
@@ -248,17 +255,21 @@ select {
   }
 
   .button_bag {
-    color: #ffffff;
-    background: #000000;
-    border-radius: 7px;
     font-size: 18px;
   }
 
   .button_like {
     justify-self: end;
+    margin-top: 0%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.345em;
 
     background: #ffffff;
     border: 0.5px solid #000000;
     border-radius: 7px;
+    padding: 3%;
   }
 }
