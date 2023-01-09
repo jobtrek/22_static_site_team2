@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 800px) {
     .containerNavbar {
         display: grid;
@@ -12,16 +13,14 @@
 
     .grp3Navbar {
         grid-row: 2;
+        padding-left: 10px;
     }
 
     .grp3Navbar input {
+        grid-row-start: 3;
+        grid-row-end: 4;
         width: 75%;
     }
-
-    .grp3Navbar button {
-        grid-row: 1;
-    }
-
 
 
     .grp2Navbar ul {
@@ -71,7 +70,6 @@
         height: 37px;
         background-color: #F4F4F4;
         background-image: url(/img/icon\ _search_.svg);
-        background-position: right;
         background-repeat: no-repeat;
     }
 
