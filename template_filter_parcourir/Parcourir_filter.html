@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="Parcourir_filter.css">
+    <script src="Parcourir_filter.css"></script>
+    <title>Acceuil</title>
+</head>
+
+
+<body>
+    <main>
+
+        <!--FilterContainer1-->
+
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+
+            <div class="containerFilter">
+
+                <div class="filter"><a class="icon" onclick="deroulement()"
+                        style="cursor:pointer; display: inline-block">Filter</a>
+                    <img id="vector1" class="vectorFilter" src="parcourir_img_filter/Vector2.svg" alt=""
+                        style="display: inline-block; margin-left: -8px">
+                </div>
+
+            </div>
+
+            <div id="myLinks">
+                <a class="imgFilter imgColor" href="">Color <img class=" vectorColor"
+                        src="parcourir_img_filter/Vector.svg"></a>
+                <a class="imgFilter imgSize" href="">Size <img class="vectorSize"
+                        src="parcourir_img_filter/Vector.svg"></a>
+                <a class="imgFilter imgBrand" href="">Brand <img class="vectorBrand"
+                        src="parcourir_img_filter/Vector.svg"></a>
+                <a class="imgFilter imgSale" href="">Sale <img class="vectorSale"
+                        src="parcourir_img_filter/Vector.svg"></a>
+                <img class="secondVector" src="/template_filter_parcourir/parcourir_img_filter/Vector.svg" alt="">
+
+            </div>
+
+        </div>
+
+        <!-- End smartphone / tablet look -->
+
+        <script>
+            function deroulement() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+
+                var Image_Id = document.getElementById('vector1');
+                if (Image_Id.src.match("parcourir_img_filter/Vector2.svg")) {
+                    Image_Id.src = "/template_filter_parcourir/parcourir_img_filter/Vector.svg";
+                }
+                else {
+                    Image_Id.src = "parcourir_img_filter/Vector2.svg";
+                }
+            }
+
+
+
+        </script>
+    </main>
+</body>
+
+</html>

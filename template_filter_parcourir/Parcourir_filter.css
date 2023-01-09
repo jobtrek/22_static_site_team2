@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+}
+
+
+.vectorColor {
+    margin-left: 97px;
+}
+
+.vectorSize {
+    margin-left: 104px;
+}
+
+.vectorBrand {
+    margin-left: 93.5px;
+}
+
+.vectorSale {
+    margin-left: 103.5px;
+}
+
+.topnav #myLinks {
+    display: none;
+    margin-left: 17px;
+    position: relative;
+}
+
+
+.topnav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: relative;
+    z-index: 1;
+    height: 3px;
+
+    width: 62px;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    margin-left: 17px;
+}
+
+.imgFilter {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+.secondVector {
+    display: none;
+}
+
+.vectorFilter {
+    margin-left: 30px;
+}
+
+.imgSize {
+    margin-top: 33px;
+}
+
+.imgBrand {
+    margin-top: 33px;
+}
+
+.imgSale {
+    margin-top: 40px;
+}
+
+
+.containerFilter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter {
+    margin-top: -66px;
+}
+
+#vector1.vectorFilter {
+    position: relative;
+
+}
+
+a.icon {
+    display: inline-block;
+}
+
+img#vector1 {
+    display: inline-block;
+}
