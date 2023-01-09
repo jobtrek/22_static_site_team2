@@ -4,6 +4,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   padding: 10%;
+  row-gap: 3%;
+  column-gap: 10%;
 }
 
 .grid_preview > .image_preview {
@@ -62,6 +64,7 @@
   text-decoration: underline;
   font-family: "Inter";
   font-style: normal;
+  color: #000000;
 }
 
 #size_guide {
@@ -70,6 +73,7 @@
   font-family: "Inter";
   font-style: italic;
   font-variation-settings: "slnt" -5;
+  color: #000000;
 }
 
 /* button slecteur de taille */
@@ -118,6 +122,7 @@ select {
 
   font-family: "Inter";
   font-style: normal;
+  text-decoration: none;
 }
 
 .button_bag:hover {
@@ -146,6 +151,14 @@ select {
 .button_like:hover {
   transition: 0.8s;
   color: blueviolet;
+}
+
+/* Estimated delivery */
+
+#Estimated_delivery {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 10px;
 }
 
 /* responsive pc */
@@ -209,6 +222,7 @@ select {
     text-decoration: underline;
     font-family: "Inter";
     font-style: normal;
+    color: #000000;
   }
 
   #size_guide {
@@ -216,6 +230,7 @@ select {
     font-variation-settings: "slnt" 0;
     font-size: 12px;
     font-family: "Inter";
+    color: #000000;
   }
 
   /* button slecteur de taille */
@@ -271,5 +286,10 @@ select {
     border: 0.5px solid #000000;
     border-radius: 7px;
     padding: 3%;
+  }
+
+  #Estimated_delivery {
+    margin-top: 25px;
+    font-size: 13px;
   }
 }
