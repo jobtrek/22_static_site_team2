@@ -62,6 +62,7 @@
   text-decoration: underline;
   font-family: "Inter";
   font-style: normal;
+  color: #000000;
 }
 
 #size_guide {
@@ -70,6 +71,7 @@
   font-family: "Inter";
   font-style: italic;
   font-variation-settings: "slnt" -5;
+  color: #000000;
 }
 
 /* button slecteur de taille */
@@ -209,6 +211,7 @@ select {
     text-decoration: underline;
     font-family: "Inter";
     font-style: normal;
+    color: #000000;
   }
 
   #size_guide {
@@ -216,6 +219,7 @@ select {
     font-variation-settings: "slnt" 0;
     font-size: 12px;
     font-family: "Inter";
+    color: #000000;
   }
 
   /* button slecteur de taille */
