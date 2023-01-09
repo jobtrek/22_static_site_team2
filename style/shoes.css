@@ -120,6 +120,7 @@ select {
 
   font-family: "Inter";
   font-style: normal;
+  text-decoration: none;
 }
 
 .button_bag:hover {
@@ -148,6 +149,12 @@ select {
 .button_like:hover {
   transition: 0.8s;
   color: blueviolet;
+}
+
+/* Estimated delivery */
+
+#Estimated_delivery {
+  font-size: 10px;
 }
 
 /* responsive pc */

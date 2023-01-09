@@ -72,6 +72,7 @@
   border: 1px solid black;
   background-color: black;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .Button_view:hover {
