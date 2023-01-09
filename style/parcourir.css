@@ -2,12 +2,14 @@
   display: grid;
   gap: 50px;
   grid-template-columns: auto auto;
-  padding: 100px;
+  grid-template-rows: auto auto;
+  padding: 50px;
+  margin-top: 138px;
 }
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
-  text-align: left;
+  margin-left: 50px;
 }
 
 h1 {
@@ -64,4 +66,9 @@ h3 {
   h3 {
     font-size: 12px;
   }
+}
+
+.iconecoeur {
+  margin-left: 130px;
+  margin-bottom: 38px;
 }
