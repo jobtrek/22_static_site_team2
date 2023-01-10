@@ -43,14 +43,10 @@
     }
 
 }
-
-
-
 @media screen and (min-width:800px) {
     .containerNavbar {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        text-align: center;
         align-items: center;
     }
 
@@ -58,22 +54,32 @@
         display: flex;
         padding-left: 35px;
     }
+    .grp2Navbar{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
 
     .grp2Navbar ul {
         display: flex;
         gap: 50px;
-        justify-content: right;
-
+        justify-content: center;
     }
     .burgerbutton{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start:1;
+        grid-row-end: 2;
         display:flex;
-        justify-content: left;
+        justify-content: center;
     }
 
     .searchbar {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
         display: flex;
-        grid-column: 3;
-        justify-content: right;
+        justify-content: left;
     }
 
     .searchbar input {
@@ -87,6 +93,7 @@
         background-position-x: 90%;
         background-position-y: 50%;
     }
+    
 
 }
 
@@ -125,9 +132,6 @@
 }
 .searchbar input{
     text-indent: 10px;
-    border: none;
-}
-.searchbar input:active {
     border: none;
 }
 
