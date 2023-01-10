@@ -6,7 +6,6 @@ document.querySelector('body').onresize = function () {
             pagebutton.style.display = 'none';
         }
     } else {
-        
         for (const pagebutton of pageButtons) {
             pagebutton.style.display = 'flex';
         }
