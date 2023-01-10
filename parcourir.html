@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style/parcourir.css" />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/template_filter_parcourir/Parcourir_filter.css">
+    <script src="/template_filter_parcourir/Parcourir_filter.js"></script>
     <title>Parcourir</title>
 </head>
 
@@ -35,6 +38,197 @@
   </div>
 </header>
     <script src="Navbar.js"></script>
+
+    <header>
+        <div class="containerNavbar">
+            <div class="grp1Navbar"><img src="./img/logo.svg" alt="logo du site">
+            </div>
+            <div class="grp2Navbar">
+                <ul>
+                    <li class="liststyle"><a href="index.html">Acceuil</a></li>
+                    <li class="liststyle"> <a href="parcourir.html">Parcourir</a></li>
+                    <li class="liststyle"> <a href="panier.html">Mon panier</a></li>
+                </ul>
+            </div>
+            <div class="grp3Navbar">
+                <input type="text" placeholder="text">
+                <button><img src="./img/navburger.svg"> </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- filter -->
+        <div class="topnav">
+
+            <div class="containerFilter">
+
+                <div class="filter"><a class="icon" onclick="deroulement()"
+                        style="cursor:pointer; display: inline-block">Filter</a>
+                    <img id="vector1" class="vectorFilter"
+                        src="/template_filter_parcourir/parcourir_img_filter/Vector2.svg" alt=""
+                        style="display: inline-block; margin-left: -8px">
+                </div>
+
+            </div>
+
+            <div id="myLinks">
+                <a class="imgFilter imgColor" href="">Color <img class="vectorColor"
+                        src="/template_filter_parcourir/parcourir_img_filter/Vector.svg"></a>
+                <a class="imgFilter imgSize" href="">Size <img class="vectorSize"
+                        src="/template_filter_parcourir/parcourir_img_filter/Vector.svg"></a>
+                <a class="imgFilter imgBrand" href="">Brand <img class="vectorBrand"
+                        src="/template_filter_parcourir/parcourir_img_filter/Vector.svg"></a>
+                <a class="imgFilter imgSale" href="">Sale <img class="vectorSale"
+                        src="/template_filter_parcourir/parcourir_img_filter/Vector.svg"></a>
+                <img class="secondVector" src="/template_filter_parcourir/parcourir_img_filter/Vector.svg" alt="">
+
+            </div>
+
+        </div>
+
+        <script>
+            function deroulement() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+
+                var Image_Id = document.getElementById('vector1');
+                if (Image_Id.src.match("parcourir_img_filter/Vector2.svg")) {
+                    Image_Id.src = "/template_filter_parcourir/parcourir_img_filter/Vector.svg";
+                }
+                else {
+                    Image_Id.src = "/template_filter_parcourir/parcourir_img_filter/Vector2.svg";
+                }
+            }
+
+
+
+        </script>
+        <!-- end of filter -->
+        <div class="grid-container">
+            <div class="grid-item"><img src="./img/parcourir_monceler.svg" alt="">
+                <h1>Moncler</h1>
+                <h2>Neue leather chelsea boots</h2>
+                <h3>650 CHF</h3>
+
+            </div>
+            <div class="grid-item"><img src="./img/airmax97.svg" alt="">
+                <h1>Nike</h1>
+                <h2>Air Max 97 sneakers</h2>
+                <h3>250 CHF</h3>
+            </div>
+            <div class="grid-item"><img src="./img/./AirForce107.svg" alt="">
+                <h1>Nike</h1>
+                <h2>Air Force 1’07 Low sneakers</h2>
+                <h3>230 CHF</h3>
+            </div>
+            <div class="grid-item"><img src="./img/Airforce1.svg" alt="">
+                <h1>Nike</h1>
+                <h2>Air Foce 1 snekers</h2>
+
+                <h3>650 CHF</h3>
+            </div>
+            <div class="grid-item"><img src="./img/New Balance.svg" alt="">
+                <h1>New Balance</h1>
+                <h2>530 lace-up sneakers</h2>
+
+                <h3>230 CHF</h3>
+            </div>
+            <div class="grid-item"><img src="./img/Nike LouisV.svg" alt="">
+                <h1>Nike</h1>
+                <h2>x Louis Vuitton Air Force</h2>
+
+                <h3>22’960 CHF</h3>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerContainer"></div>
+        <!--ContainerFooter1-->
+        <div class="containerFooter1">
+
+
+            <div class="txtdiv1">
+                <p class="txt">Legal Notice</p>
+            </div>
+
+            <div class="barre1">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv2">
+                <p class="txt">general conditions of sale</p>
+            </div>
+
+            <div class="barre2">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv3">
+                <p class="txt">Privacy Policy</p>
+            </div>
+
+        </div>
+
+        <!--ContainerFooter2-->
+        <div class="containerFooter2">
+
+            <div class="barre3">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv4">
+                <p class="txt">Data settings</p>
+            </div>
+
+            <div class="barre4">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv5">
+                <p class="txt">Blog</p>
+            </div>
+        </div>
+        <!--ContainerFooter3-->
+        <div class="containerFooter3">
+            <div class="txtdiv6">
+                <p class="txt">Find US on social</p>
+            </div>
+
+            <div class="txtdiv7">
+                <p class="txt">Download Our App</p>
+            </div>
+        </div>
+
+        <div class="containerFooterBig">
+            <!--ContainerFooter4-->
+            <div class="containerFooter4">
+                <div><img class="twitter" src="imgFooter/logo twitter.svg" alt=""></div>
+
+                <div><img class="instagram" src="imgFooter/logo instagram.svg" alt=""></div>
+
+                <div><img class="facebook" src="imgFooter/logo facebook.svg" alt=""></div>
+            </div>
+            <!--ContainerFooter5-->
+            <div class="containerFooter5">
+                <div><img class="apple" src="imgFooter/logo apple.svg" alt=""></div>
+
+                <img class="android" src="imgFooter/logo android.svg" alt="">
+            </div>
+
+        </div>
+        <!--ContainerFooter6-->
+        <div class="containerFooter6">
+            <div class="parametres">Switzerland | English | CHF CHF</div>
+        </div>
+    </footer>
+
 </body>
 
 </html>

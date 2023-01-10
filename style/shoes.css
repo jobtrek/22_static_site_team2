@@ -1,0 +1,295 @@
+/* grid global */
+.grid_preview {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 10%;
+  row-gap: 3%;
+  column-gap: 10%;
+}
+
+.grid_preview > .image_preview {
+  width: 100%;
+  max-width: 350px;
+}
+
+.container_shoes {
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+/* texte à droite */
+
+.text_1 {
+  font-size: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #000000;
+}
+
+.text_2 {
+  font-size: 9px;
+  color: #5b5b5b;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 5%;
+}
+
+.text_3 {
+  font-size: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #000000;
+}
+
+.text_4 {
+  font-size: 9px;
+  color: rgba(91, 91, 91, 0.91);
+  font-family: "Inter";
+  font-style: normal;
+}
+
+/* button à droite */
+
+.size_flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+#find_your_size {
+  font-size: 10px;
+  font-variation-settings: "slnt" 0;
+  text-decoration: underline;
+  font-family: "Inter";
+  font-style: normal;
+  color: #000000;
+}
+
+#size_guide {
+  text-decoration: underline;
+  font-size: 7px;
+  font-family: "Inter";
+  font-style: italic;
+  font-variation-settings: "slnt" -5;
+  color: #000000;
+}
+
+/* button slecteur de taille */
+
+.custom-select {
+  display: flex;
+
+  border: 0.5px solid #000000;
+  border-radius: 7px;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+select {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #ffffff;
+  flex-grow: 1;
+  border-radius: 7px;
+  padding: 1%;
+
+  font-family: "Inter";
+  font-style: normal;
+  color: #9b9797;
+}
+
+/* Button add to bag et like */
+
+.button_bag_like {
+  display: grid;
+  grid-template-rows: 40px 40px;
+
+  margin-top: 6%;
+  margin-top: 8%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.button_bag {
+  color: #ffffff;
+  background: #000000;
+  border-radius: 7px;
+  font-size: 10px;
+  padding: 3%;
+  border: 1px solid black;
+
+  font-family: "Inter";
+  font-style: normal;
+  text-decoration: none;
+}
+
+.button_bag:hover {
+  transition: 0.8s;
+  color: blueviolet;
+  background-color: #ffffff;
+}
+
+.button_like {
+  display: flex;
+  justify-self: end;
+  margin-top: 3%;
+  align-items: center;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.345em;
+
+  background: #ffffff;
+  border: 0.5px solid #000000;
+  border-radius: 7px;
+  padding: 3%;
+}
+
+.button_like:hover {
+  transition: 0.8s;
+  color: blueviolet;
+}
+
+/* Estimated delivery */
+
+#Estimated_delivery {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 10px;
+}
+
+/* responsive pc */
+@media screen and (min-width: 600px) {
+  .container_shoes {
+    display: grid;
+    grid-template-columns: 62% 38%;
+    padding: 10%;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .shoes_left {
+    order: 1; /* default is 0 */
+  }
+
+  /* texte à droite */
+
+  .text_1 {
+    font-size: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    margin-bottom: 1%;
+  }
+
+  .text_2 {
+    font-size: 15px;
+    color: #5b5b5b;
+    font-family: "Inter";
+    font-style: normal;
+    margin-bottom: 10%;
+  }
+
+  .text_3 {
+    font-size: 20px;
+    font-family: "Inter";
+    font-style: normal;
+  }
+
+  .text_4 {
+    font-size: 14px;
+    color: rgba(91, 91, 91, 0.91);
+    font-family: "Inter";
+    font-style: normal;
+    margin-bottom: 12%;
+  }
+
+  /* button à droite */
+
+  .size_flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8%;
+    padding-bottom: 5%;
+  }
+
+  #find_your_size {
+    font-size: 13px;
+    font-variation-settings: "slnt" 0;
+    text-decoration: underline;
+    font-family: "Inter";
+    font-style: normal;
+    color: #000000;
+  }
+
+  #size_guide {
+    text-decoration: underline;
+    font-variation-settings: "slnt" 0;
+    font-size: 12px;
+    font-family: "Inter";
+    color: #000000;
+  }
+
+  /* button slecteur de taille */
+
+  .custom-select {
+    display: flex;
+
+    border: 0.5px solid #000000;
+    border-radius: 7px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  select {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #ffffff;
+    flex-grow: 1;
+    border-radius: 7px;
+    padding: 1%;
+
+    font-family: "Inter";
+    font-style: normal;
+    color: #9b9797;
+  }
+
+  /* Button add to bag et like */
+
+  .button_bag_like {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 0% 0%;
+
+    margin-top: 6%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .button_bag {
+    font-size: 18px;
+  }
+
+  .button_like {
+    justify-self: end;
+    margin-top: 0%;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.345em;
+
+    background: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 7px;
+    padding: 3%;
+  }
+
+  #Estimated_delivery {
+    margin-top: 25px;
+    font-size: 13px;
+  }
+}
