@@ -1,0 +1,55 @@
+body {
+    background-color: #E3E3E3;
+}
+
+.FinalPrice{
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.UpperZone{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.total{
+    display: flex;
+    font-size: 24px;
+    font-weight:600;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.UpperZoneBottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.info{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.info a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5%;
+    font-size: 16px;
+}
+
+.PriceLayout{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.PriceLayout a{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 5%;
+}
+.FinalPrice hr{
+    color: #D6D6D6;
+    width: 90%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
