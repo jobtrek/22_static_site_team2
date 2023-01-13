@@ -1,0 +1,39 @@
+.panier_top_left {
+  background-color: white;
+}
+
+.grid_panier_vetement_mid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.move_remove {
+  display: flex;
+}
+
+.titre {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.custom-select {
+  display: flex;
+
+  border: 0.5px solid #000000;
+  border-radius: 7px;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+@media screen and (min-width: 600px) {
+  .titre {
+    font-size: 20px;
+  }
+
+  .panier_top_left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    background-color: white;
+  }
+}
