@@ -74,3 +74,22 @@ body {
     justify-content: right;
     padding-right: 5%;
 }
+.Button_view{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button_view input{
+    width: 90%;
+    height: 49px;
+    background-color: black;
+    color:white;
+    border: none;
+    font-weight: 600;
+}
+.Button_view input:hover{
+    transition: 1s;
+    background-color: white;
+    color: purple;
+    border: 1px solid gray;
+}
