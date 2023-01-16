@@ -1,6 +1,5 @@
 # Static site - team 2
-This project was realized by @FY4LL @ad.bme @nicolasloi @
-Bilaljanir.
+This project was realized by @FY4LL @ad.bme @nicolasloi @Bilaljanir.
 
 
 ## Work settings
@@ -10,5 +9,5 @@ UTF-8 for caracrtery.
 
 ## The project
 
-This is a small window website for train our HTML and CSS skills.
+This is a small window website for train our HTML,CSS and Javascript skills.
 This website is about Cloths shop.
