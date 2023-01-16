@@ -1,5 +1,5 @@
-body {
-  background-color: red;
+.gridoverlay {
+  background-color: #e3e3e3;
 }
 .deliverydate {
   margin: 2%;
@@ -52,4 +52,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 13px;
+}
+@media screen and (max-width: 800px) {
+  .gridoverlay {
+    display: grid;
+    grid-template-rows: repeat(3, 3fr);
+  }
 }
