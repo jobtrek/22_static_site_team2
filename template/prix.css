@@ -90,6 +90,6 @@ body {
 .Button_view input:hover{
     transition: 1s;
     background-color: white;
-    color: purple;
+    color: blueviolet;
     border: 1px solid gray;
 }
