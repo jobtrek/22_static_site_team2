@@ -271,6 +271,7 @@ select {
 
   .button_bag {
     font-size: 18px;
+    height: 1.375em;
   }
 
   .button_like {
@@ -286,6 +287,7 @@ select {
     border: 0.5px solid #000000;
     border-radius: 7px;
     padding: 3%;
+    height: 2.8125em;
   }
 
   #Estimated_delivery {
