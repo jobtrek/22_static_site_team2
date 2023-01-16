@@ -1,0 +1,95 @@
+body {
+    background-color: #E3E3E3;
+}
+
+.FinalPrice{
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.UpperZone{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.total{
+    display: flex;
+    font-size: 24px;
+    font-weight:600;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.UpperZoneBottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.info{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.info a {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    font-size: 16px;
+}
+
+.PriceLayout{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+.PriceLayout a{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 5%;
+}
+.FinalPrice hr{
+    color: #D6D6D6;
+    width: 96%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+.BottomZone{
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+}
+.VAT{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.TextVAT{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
+   font-weight: 600;
+
+}
+.PriceVAT{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 5%;
+}
+.Button_view{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button_view input{
+    width: 90%;
+    height: 49px;
+    background-color: black;
+    color:white;
+    border: none;
+    font-weight: 600;
+}
+.Button_view input:hover{
+    transition: 1s;
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid gray;
+}
