@@ -1,0 +1,136 @@
+.panier_top_left {
+  background-color: white;
+  margin: 2%;
+}
+
+.panier_vetement_left {
+  text-align: right;
+}
+
+.prix_right {
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.move_remove {
+  margin-top: 2%;
+  display: flex;
+  gap: 10px;
+}
+
+.titre {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 8%;
+}
+
+#Nike_sportwear {
+  font-family: "Inter";
+  font-style: normal;
+  align-self: end;
+  margin-bottom: 2%;
+}
+
+#air_max_97 {
+  color: rgba(114, 114, 114, 1);
+  font-size: 13px;
+  margin-bottom: 2%;
+}
+
+#size_US {
+  color: rgba(114, 114, 114, 1);
+  font-size: 13px;
+}
+
+#poubelle {
+  color: #949494;
+}
+
+#petite_ligne {
+  max-height: 100px;
+}
+
+#coeur {
+  color: #949494;
+}
+
+#i_bot {
+  margin-top: 10%;
+  color: #2f5fb4;
+  margin-left: 3%;
+  font-weight: 300;
+}
+
+.custom-select {
+  display: flex;
+
+  border: 0.5px solid #000000;
+
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+select {
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #ffffff;
+  flex-grow: 1;
+
+  padding: 2%;
+
+  font-family: "Inter";
+  font-style: normal;
+}
+
+@media screen and (min-width: 600px) {
+  .titre {
+    font-size: 20px;
+  }
+
+  .grid_panier_vetement_mid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .panier_top_left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    background-color: white;
+  }
+
+  .custom-select {
+    display: flex;
+
+    border: 0.5px solid #000000;
+
+    margin-top: 20%;
+    margin-left: 65%;
+    margin-right: 5%;
+  }
+
+  select {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #ffffff;
+    flex-grow: 1;
+
+    padding: 8%;
+
+    font-family: "Inter";
+    font-style: normal;
+  }
+
+  .move_remove {
+    display: flex;
+    gap: 10px;
+  }
+
+  #poubelle {
+    margin-left: 3%;
+    color: #949494;
+  }
+}
