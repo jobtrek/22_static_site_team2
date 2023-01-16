@@ -53,9 +53,3 @@
   flex-direction: row;
   gap: 13px;
 }
-@media screen and (max-width: 800px) {
-  .gridoverlay {
-    display: grid;
-    grid-template-rows: repeat(3, 3fr);
-  }
-}
