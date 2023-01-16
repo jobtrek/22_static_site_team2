@@ -13,6 +13,7 @@
 }
 
 .move_remove {
+  margin-top: 2%;
   display: flex;
   gap: 10px;
 }
@@ -44,7 +45,6 @@
 }
 
 #poubelle {
-  margin-left: 3%;
   color: #949494;
 }
 
@@ -68,9 +68,9 @@
 
   border: 0.5px solid #000000;
 
-  margin-top: 20%;
-  margin-left: 65%;
-  margin-right: 5%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 select {
@@ -79,7 +79,7 @@ select {
   background-color: #ffffff;
   flex-grow: 1;
 
-  padding: 8%;
+  padding: 2%;
 
   font-family: "Inter";
   font-style: normal;
@@ -100,5 +100,37 @@ select {
     grid-template-columns: repeat(2, 1fr);
 
     background-color: white;
+  }
+
+  .custom-select {
+    display: flex;
+
+    border: 0.5px solid #000000;
+
+    margin-top: 20%;
+    margin-left: 65%;
+    margin-right: 5%;
+  }
+
+  select {
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #ffffff;
+    flex-grow: 1;
+
+    padding: 8%;
+
+    font-family: "Inter";
+    font-style: normal;
+  }
+
+  .move_remove {
+    display: flex;
+    gap: 10px;
+  }
+
+  #poubelle {
+    margin-left: 3%;
+    color: #949494;
   }
 }
