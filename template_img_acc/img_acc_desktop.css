@@ -4,17 +4,7 @@
         background-repeat: no-repeat;
     }
 
-    /* .menDivImg {
-        margin-top: 278px;
-        margin-left: 92px;
-    }
 
-    .childDivImg {
-        margin-top: 280px;
-        margin-left: 92px;
-    }
-
-    .womenDivImg {} */
 
     .divBoutton {
 
@@ -46,16 +36,16 @@
 
 
     .menDiv {
-        background-image: url(/imgMain/men.svg);
+        background-image: url(/imgMain/men.jpg);
     }
 
 
     .womenDiv {
-        background-image: url(/imgMain/women.svg);
+        background-image: url(/imgMain/women.jpg);
     }
 
     .childDiv {
-        background-image: url(/imgMain/child.svg);
+        background-image: url(/imgMain/child.jpg);
     }
 
     @media screen and (max-width: 640px) {
