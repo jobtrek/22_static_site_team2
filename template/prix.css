@@ -31,8 +31,7 @@ body {
 .info a {
     display: flex;
     align-items: center;
-    justify-content: left;
-    padding-left: 5%;
+    padding-left: 10%;
     font-size: 16px;
 }
 
@@ -57,14 +56,23 @@ body {
     display:grid;
     grid-template-rows: repeat(2,1fr);
 }
-.Button_view {
-    margin-top: 17%;
-    margin-bottom: 5%;
-    padding: 5% 15%;
-    font-size: 20px;
+.VAT{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.TextVAT{
+    
+}
+.PriceVAT{
+    display: flex;
     align-items: center;
-    text-align: center;
-    border: 1px solid black;
+    justify-content: right;
+    padding-right: 5%;
+}
+.Button_view {
+    display:flex;
+    font-size: 20px;
+    border: none;
     background-color: black;
     color: #ffffff;
 }
