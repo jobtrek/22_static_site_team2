@@ -1,0 +1,41 @@
+.livraison {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 868px;
+  height: 152px;
+}
+.p1 {
+  font-weight: bold;
+  margin-left: 2%;
+  margin-top: 4%;
+  font-size: 20px;
+}
+.p2 {
+  margin-top: 74px;
+  margin-left: 2%;
+  font-size: 15px;
+}
+
+.carde p {
+  font-weight: bold;
+
+  margin-bottom: 90px;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+.carde {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 192px;
+  width: 868px;
+}
+.imgs {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
