@@ -1,3 +1,17 @@
+body {
+  background-color: red;
+}
+.deliverydate {
+  margin: 2%;
+}
+.GAP {
+  height: 23px;
+}
+.gridoverlay {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
 .livraison {
   margin-top: 26px;
   display: flex;
