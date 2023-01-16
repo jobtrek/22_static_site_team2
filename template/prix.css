@@ -61,18 +61,16 @@ body {
     grid-template-columns: repeat(2,1fr);
 }
 .TextVAT{
-    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
+   font-weight: 600;
+
 }
 .PriceVAT{
     display: flex;
     align-items: center;
     justify-content: right;
     padding-right: 5%;
-}
-.Button_view {
-    display:flex;
-    font-size: 20px;
-    border: none;
-    background-color: black;
-    color: #ffffff;
 }
