@@ -1,106 +1,102 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
-
 
 .topnav {
-    overflow: hidden;
-    position: relative;
-    top: 50px;
+  overflow: hidden;
+  position: relative;
+  top: 50px;
 }
 
-
 .vectorColor {
-    margin-left: 97px;
+  margin-left: 97px;
 }
 
 .vectorSize {
-    margin-left: 104px;
+  margin-left: 104px;
 }
 
 .vectorBrand {
-    margin-left: 93.5px;
+  margin-left: 93.5px;
 }
 
 .vectorSale {
-    margin-left: 103.5px;
+  margin-left: 103.5px;
 }
 
 .topnav #myLinks {
-    display: none;
-    margin-left: 17px;
-    position: relative;
+  display: none;
+  margin-left: 17px;
+  position: relative;
+  margin-bottom: 12%;
 }
 
-
 .topnav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: block;
 }
 
 .topnav a.icon {
-    display: block;
-    position: relative;
-    z-index: 1;
-    height: 3px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: 3px;
 
-    width: 62px;
-    right: 0;
-    top: 0;
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
-    margin-left: 17px;
+  width: 62px;
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  margin-left: 17px;
 }
 
 .imgFilter {
-    font-size: 12px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 800;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
 }
 
 .secondVector {
-    display: none;
+  display: none;
 }
 
 .vectorFilter {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .imgSize {
-    margin-top: 33px;
+  margin-top: 33px;
 }
 
 .imgBrand {
-    margin-top: 33px;
+  margin-top: 33px;
 }
 
 .imgSale {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
-
 .containerFilter {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .filter {
-    margin-top: -66px;
+  margin-top: -66px;
 }
 
 #vector1.vectorFilter {
-    position: relative;
-
+  position: relative;
 }
 
 a.icon {
-    display: inline-block;
+  display: inline-block;
 }
 
 img#vector1 {
-    display: inline-block;
+  display: inline-block;
 }
