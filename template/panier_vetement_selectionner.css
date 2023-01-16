@@ -1,5 +1,15 @@
 .panier_top_left {
   background-color: white;
+  margin: 2%;
+}
+
+.panier_vetement_left {
+  text-align: right;
+}
+
+.prix_right {
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
 .move_remove {
@@ -10,14 +20,27 @@
 .titre {
   font-size: 17px;
   font-weight: 600;
+  font-family: "Inter";
+  font-style: normal;
+  margin-bottom: 8%;
+}
+
+#Nike_sportwear {
+  font-family: "Inter";
+  font-style: normal;
+  align-self: end;
+  margin-bottom: 2%;
 }
 
 #air_max_97 {
   color: rgba(114, 114, 114, 1);
+  font-size: 13px;
+  margin-bottom: 2%;
 }
 
-#prix {
+#size_US {
   color: rgba(114, 114, 114, 1);
+  font-size: 13px;
 }
 
 #poubelle {
@@ -37,6 +60,7 @@
   margin-top: 10%;
   color: #2f5fb4;
   margin-left: 3%;
+  font-weight: 300;
 }
 
 .custom-select {
@@ -44,7 +68,8 @@
 
   border: 0.5px solid #000000;
 
-  margin-left: 5%;
+  margin-top: 20%;
+  margin-left: 65%;
   margin-right: 5%;
 }
 
@@ -54,7 +79,7 @@ select {
   background-color: #ffffff;
   flex-grow: 1;
 
-  padding: 1%;
+  padding: 8%;
 
   font-family: "Inter";
   font-style: normal;
