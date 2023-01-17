@@ -8,6 +8,8 @@ body {
   display: grid;
   grid-template-columns: 69% 31%;
 }
+@media screen and (min-width: 800px) {
+}
 .deliverydate {
   margin-left: 2%;
   margin-bottom: 2%;
@@ -34,8 +36,6 @@ body {
   align-items: flex-end;
   margin-left: 2%;
   margin-bottom: 2%;
-}
-footer {
 }
 .carde p {
   font-weight: bold;
