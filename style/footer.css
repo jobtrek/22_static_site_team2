@@ -43,7 +43,6 @@ footer {
 .containerFooter2 {
     display: flex;
     justify-content: space-between;
-    width: 70%;
     align-items: center;
     margin-top: 25px;
 }
@@ -126,7 +125,7 @@ footer {
 
 .containerFooter5 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 15px;
     height: 41px;
     width: 104px;
@@ -148,15 +147,40 @@ footer {
     align-items: center;
     justify-content: space-around;
     margin-top: 75px;
+
+}
+
+@media screen and (min-width: 500px) {
+    .bigBigBigDiv {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .containerFooter2 {
+        justify-content: space-evenly;
+    }
+
+    .containerFooter1 {
+        justify-content: space-evenly;
+    }
 }
 
 
-
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1200px) {
 
     footer {
-
+        height: 157px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
     }
+
+    .containerFooter1,
+    .containerFooter2,
+    .bigBigBigDiv,
+    .containerFooter6 {
+        margin-top: 10px;
+    }
+
+
 }

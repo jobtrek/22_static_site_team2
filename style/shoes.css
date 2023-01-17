@@ -8,9 +8,19 @@
   column-gap: 10%;
 }
 
-.grid_preview > .image_preview {
+
+.grid_preview>.image_preview {
   width: 100%;
   max-width: 350px;
+}
+
+@media screen and (max-width : 1640px) {
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+
 }
 
 .container_shoes {
@@ -18,6 +28,7 @@
   margin-left: 8%;
   margin-right: 8%;
 }
+
 /* texte à droite */
 
 .text_1 {
@@ -173,7 +184,8 @@ select {
   }
 
   .shoes_left {
-    order: 1; /* default is 0 */
+    order: 1;
+    /* default is 0 */
   }
 
   /* texte à droite */
