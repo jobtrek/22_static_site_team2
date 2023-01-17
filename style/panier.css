@@ -22,7 +22,6 @@ body {
   width: 98%;
   height: 152px;
 }
-
 .p1 {
   display: flex;
   align-items: center;
@@ -30,20 +29,14 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
 .p2 {
   display: flex;
   align-items: flex-end;
   margin-left: 2%;
   margin-bottom: 2%;
 }
-
-
 footer {
-  position: absolute;
-  bottom: 0;
 }
-
 .carde p {
   font-weight: bold;
 
@@ -55,7 +48,7 @@ footer {
 
 .carde {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 50% 50%;
   background-color: white;
   height: 192px;
   width: 98%;
@@ -81,11 +74,9 @@ footer {
   margin-left: 2%;
 }
 
-
 .imgs {
   align-items: center;
   display: flex;
   flex-direction: row;
   gap: 13px;
 }
-
