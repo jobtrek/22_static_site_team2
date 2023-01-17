@@ -23,7 +23,9 @@
   font-weight: 600;
   font-family: "Inter";
   font-style: normal;
-  margin-bottom: 8%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 #Nike_sportwear {
@@ -59,7 +61,7 @@
 #i_bot {
   margin-top: 10%;
   color: #2f5fb4;
-  margin-left: 3%;
+  margin-left: 10%;
   font-weight: 300;
 }
 
@@ -91,6 +93,7 @@ select {
   .grid_panier_vetement_mid {
     display: grid;
     grid-template-columns: 30% 70%;
+    margin-left: 10%;
   }
 
   .panier_top_left {
