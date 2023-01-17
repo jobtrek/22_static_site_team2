@@ -6,16 +6,23 @@
   width: 868px;
   height: 152px;
 }
+
 .p1 {
   font-weight: bold;
   margin-left: 2%;
   margin-top: 4%;
   font-size: 20px;
 }
+
 .p2 {
   margin-top: 74px;
   margin-left: 2%;
   font-size: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
 
 .carde p {
@@ -26,6 +33,7 @@
   margin-left: 2%;
   margin-top: 4%;
 }
+
 .carde {
   display: flex;
   flex-direction: column;
@@ -33,6 +41,7 @@
   height: 192px;
   width: 868px;
 }
+
 .imgs {
   align-items: center;
   display: flex;
