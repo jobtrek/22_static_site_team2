@@ -1,24 +1,43 @@
+body {
+  display: grid;
+  grid-template-rows: repeat(auto, 1fr);
+}
+
+.gridoverlay {
+  background-color: #e3e3e3;
+  display: grid;
+  grid-template-columns: 69% 31%;
+}
+.deliverydate {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.GAP {
+  height: 23px;
+}
 .livraison {
-  margin-top: 26px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
   background-color: white;
-  width: 868px;
+  width: 98%;
   height: 152px;
 }
 
 .p1 {
-  font-weight: bold;
+  display: flex;
+  align-items: center;
   margin-left: 2%;
-  margin-top: 4%;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .p2 {
-  margin-top: 74px;
+  display: flex;
+  align-items: flex-end;
   margin-left: 2%;
-  font-size: 15px;
+  margin-bottom: 2%;
 }
+
 
 footer {
   position: absolute;
@@ -35,12 +54,33 @@ footer {
 }
 
 .carde {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
   background-color: white;
   height: 192px;
-  width: 868px;
+  width: 98%;
 }
+
+.carde p {
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.imgsGrid {
+  display: grid;
+  grid-template-columns: 75% auto;
+  align-items: center;
+}
+.imgsalign {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  margin-left: 2%;
+}
+
 
 .imgs {
   align-items: center;
@@ -48,3 +88,4 @@ footer {
   flex-direction: row;
   gap: 13px;
 }
+

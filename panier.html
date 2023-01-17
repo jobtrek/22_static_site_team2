@@ -1,6 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/panier.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./template/panier_vetement_selectionner.css" />
+    <link rel="stylesheet" href="./template/prix.css" />
+    <title>Panier</title>
+  </head>
+  <body>
+    <header>
+      <div class="containerNavbar">
+        <div class="grp1Navbar">
+          <a href="index.html">
+            <img src="./img/logo.svg" alt="logo du site" />
+          </a>
+        </div>
+        <div class="grp2Navbar">
+          <ul>
+            <li class="liststyle"><a href="index.html">Acceuil</a></li>
+            <li class="liststyle"> <a href="parcourir.html">Parcourir</a></li>
+            <li class="liststyle"> <a href="panier.html">Mon panier</a></li>
+          </ul>
+        </div>
+        <div class="searchbar">
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="burgerbutton">
+          <button id="burger"><img src="./img/navburger.svg" /></button>
+        </div>
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,23 +54,169 @@
         <a href="index.html">
           <img src="./img/logo.svg" alt="logo du site">
         </a>
+
       </div>
-      <div class="grp2Navbar">
-        <ul>
-          <li class="liststyle"><a href="index.html">Acceuil</a></li>
-          <li class="liststyle"> <a href="parcourir.html">Parcourir</a></li>
-          <li class="liststyle"> <a href="panier.html">Mon panier</a></li>
-        </ul>
+    </header>
+    <div>
+      <div class="gridoverlay">
+      <div class="panier_top_left">
+        <div class="panier_vetement_right">
+          <h1 class="titre">Mon panier (1 article)</h1>
+
+          <div class="grid_panier_vetement_mid">
+            <div></div>
+            <div></div>
+            <img
+              id="image_airMax"
+              src="../img/shoes_panier.svg"
+              alt="chaussures panier"
+            />
+            <div>
+              <p id="Nike_sportwear">Nike Sportwear</p>
+              <p id="air_max_97">Air Max 97 low-top sneakers</p>
+              <p id="size_US">size 8.5 US</p>
+            </div>
+
+            <div></div>
+            <div class="move_remove">
+              <p id="poubelle">
+                <img src="../img/poubelle.svg" alt="icone poubelle" /> remove</p
+              >
+              <img
+                id="petite_ligne"
+                src="../img/little_line.svg"
+                alt="petite ligne"
+              />
+              <p id="coeur">
+                <img src="../img/petit_coeur.svg" alt="icone petit_coeur" />
+                Move to my favorites</p
+              >
+            </div>
+          </div>
+
+          <p id="i_bot">
+            <img src="../img/petit_i.svg" alt="icone i" /> items in the shopping
+            bag are not reserved.
+          </p>
+        </div>
+
+        <div class="panier_vetement_left">
+          <div class="custom-select">
+            <select>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+
+          <p class="prix_right">CHF 220.00</p>
+        </div>
       </div>
-      <div class="searchbar">
-        <input type="text" placeholder="Search">
+      <div>
+        <div class="FinalPrice">
+          <div class="UpperZone">
+            <a class="total">Total</a>
+            <div class="UpperZoneBottom">
+              <div class="info">
+                <a>SubTotal</a>
+                <a>Livraison</a>
+              </div>
+              <div class="PriceLayout">
+                <a>CHF 220.00</a>
+                <a id="Livraison">CHF 0.00</a>
+              </div>
+            </div>
+            <hr />
+          </div>
+          <div class="BottomZone">
+            <div class="VAT">
+              <div class="TextVAT">
+                <a>Total (VAT inclued)</a>
+              </div>
+              <div class="PriceVAT">
+                <a>CHF 220.00</a>
+              </div>
+            </div>
+            <div class="Button_view">
+              <input type="button" value="ORDER" />
+            </div>
+          </div>
+        </div>
+        <div class="containerAddCode">
+          <div class="addCodeDiv">
+            <div class="first">
+              <div class="addCode">
+                <p>Add code</p>
+              </div>
+              <div class="optionalDiv">
+                <p>(optional)</p>
+              </div>
+            </div>
+            <div class="seconde">
+              <div class="vectorDiv">
+                <img
+                  src="/template_filter_parcourir/parcourir_img_filter/Vector.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="burgerbutton">
-        <button id="burger"><img src="./img/navburger.svg"></button>
+      <div class="deliverydate">
+        <div></div>
+        <div class="livraisonPosition">
+          <div class="livraison">
+            <p class="p1">Estimated delivery date</p>
+            <p class="p2">Mon, 06.10. - Fri, 07.10.</p>
+          </div>
+          <div class="GAP"></div>
+          <div class="carde">
+            <p>We accept</p>
+            <div class="imgsGrid">
+              <div class="imgsalign">
+                <img src="./img/twint.svg" alt="" />
+                <img src="./img/postfinance.svg" alt="" />
+                <img src="./img/paypal.svg" alt="" />
+                <img src="./img/visa.svg" alt="" />
+                <img src="./img/mastercard.svg" alt="" />
+                <img src="./img/discover.svg" alt="" />
+              </div>
+          </div>
+        </div>
       </div>
     </div>
-  </header>
-  <main>
+    </div>
+    <script src="Navbar.js"></script>
+    <footer>
+        <div class="footerContainer"></div>
+        <!--ContainerFooter1-->
+        <div class="containerFooter1">
+
+
+            <div class="txtdiv1">
+                <p class="txt">Legal Notice</p>
+            </div>
+
+            <div class="barre1">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv2">
+                <p class="txt">general conditions of sale</p>
+            </div>
+
+            <div class="barre2">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv3">
+                <p class="txt">Privacy Policy</p>
+            </div>
+
+        </div>
 
   </main>
   <footer>
@@ -137,6 +317,58 @@
   <script src="Navbar.js"></script>
 
 
-</body>
 
+        <!--ContainerFooter2-->
+        <div class="containerFooter2">
+
+            <div class="barre3">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv4">
+                <p class="txt">Data settings</p>
+            </div>
+
+            <div class="barre4">
+                <img class="barre" src="imgFooter/barre.png" alt="">
+            </div>
+
+            <div class="txtdiv5">
+                <p class="txt">Blog</p>
+            </div>
+        </div>
+        <!--ContainerFooter3-->
+        <div class="containerFooter3">
+            <div class="txtdiv6">
+                <p class="txt">Find US on social</p>
+            </div>
+
+            <div class="txtdiv7">
+                <p class="txt">Download Our App</p>
+            </div>
+        </div>
+
+        <div class="containerFooterBig">
+            <!--ContainerFooter4-->
+            <div class="containerFooter4">
+                <div><img class="twitter" src="imgFooter/logo twitter.svg" alt=""></div>
+
+                <div><img class="instagram" src="imgFooter/logo instagram.svg" alt=""></div>
+
+                <div><img class="facebook" src="imgFooter/logo facebook.svg" alt=""></div>
+            </div>
+            <!--ContainerFooter5-->
+            <div class="containerFooter5">
+                <div><img class="apple" src="imgFooter/logo apple.svg" alt=""></div>
+
+                <img class="android" src="imgFooter/logo android.svg" alt="">
+            </div>
+
+        </div>
+        <!--ContainerFooter6-->
+        <div class="containerFooter6">
+            <div class="parametres">Switzerland | English | CHF CHF</div>
+        </div>
+    </footer>
+  </body>
 </html>

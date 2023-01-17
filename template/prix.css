@@ -1,95 +1,152 @@
-body {
-    background-color: #E3E3E3;
+/* Order Info*/
+.FinalPrice {
+  background-color: #ffffff;
+  width: 450px;
+  height: 300px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 6%;
+  margin-top: 5%;
 }
 
-.FinalPrice{
-    background-color: #FFFFFF;
-    width: 450px;
-    height: 300px;
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
+.UpperZone {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
 }
-.UpperZone{
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
+.total {
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 5%;
+  padding-top: 5%;
 }
-.total{
-    display: flex;
-    font-size: 24px;
-    font-weight:600;
-    padding-left: 5%;
-    padding-top: 5%;
+.UpperZoneBottom {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.UpperZoneBottom{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.info{
-    display: grid;
-    grid-template-rows: repeat(2,1fr);
+.info {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
 }
 .info a {
-    display: flex;
-    align-items: center;
-    padding-left: 10%;
-    font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  font-size: 16px;
 }
 
-.PriceLayout{
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
+.PriceLayout {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
 }
-.PriceLayout a{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 5%;
+.PriceLayout a {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 5%;
 }
-.FinalPrice hr{
-    color: #D6D6D6;
-    width: 96%;
-    margin: auto;
-    display:flex;
-    align-items: center;
+.FinalPrice hr {
+  color: #d6d6d6;
+  width: 96%;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
-.BottomZone{
-    display:grid;
-    grid-template-rows: repeat(2,1fr);
+.BottomZone {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
 }
-.VAT{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
+.VAT {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-.TextVAT{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding-left: 10%;
-   font-weight: 600;
+.TextVAT {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 10%;
+  font-weight: 600;
+}
+.PriceVAT {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 5%;
+}
+.Button_view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Button_view input {
+  width: 90%;
+  height: 49px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+.Button_view input:hover {
+  transition: 1s;
+  background-color: white;
+  color: blueviolet;
+  border: 1px solid gray;
+}
 
+/* Code Reduction*/
+.addCodeDiv {
+  width: 450px;
+  height: 97px;
+  background-color: #ffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
 }
-.PriceVAT{
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    padding-right: 5%;
+
+.first {
+  display: flex;
 }
-.Button_view{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+
+.seconde {
+  display: flex;
 }
-.Button_view input{
-    width: 90%;
-    height: 49px;
-    background-color: black;
-    color:white;
-    border: none;
-    font-weight: 600;
+
+.optionalDiv {
+  margin-left: 7px;
+  color: #727272;
 }
-.Button_view input:hover{
-    transition: 1s;
-    background-color: white;
-    color: blueviolet;
-    border: 1px solid gray;
+.vectorDiv {
+  margin-right: 47px;
+  width: 13px;
+}
+.addCode {
+  margin-left: 19px;
+}
+
+@media screen and (max-width: 800px) {
+  .first {
+    display: block;
+  }
+
+  .optionalDiv {
+    margin-left: 18px;
+    color: #727272;
+  }
+
+  .vectorDiv {
+    margin-right: 20px;
+    width: 13px;
+  }
+}
+
+@media screen and (max-width: 800) {
+  .addCodeDiv {
+    font-size: 12px;
+  }
+
+  .vectorDiv {
+    margin-right: 20px;
+    width: 10px;
+  }
 }
